@@ -508,11 +508,41 @@ section#contact {
   section#contact ::-moz-placeholder {
     font-weight: 700;
     color: #ced4da;
-    /* Firefox 19+ */
+    /* Firefox 19
+element.style {
+}
+@media (min-width: 768px)
+agency.min.css:5
+header.masthead .intro-text .intro-lead-in {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+agency.min.css:5
+header.masthead .intro-text .intro-lead-in {
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+bootstrap.min.css:6
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from header.masthead
+agency.min.css:5
+header.masthead+ */
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   section#contact :-ms-input-placeholder {
     font-weight: 700;
-    color: #ced4da;
+    color: black;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 footer {
